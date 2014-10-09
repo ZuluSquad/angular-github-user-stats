@@ -1,0 +1,24 @@
+{
+  "name": "angular-github-user-stats",
+  "version": "0.0.0",
+  "description": "angular-github-user-stats\r =========================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZuluSquad/angular-github-user-stats.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZuluSquad/angular-github-user-stats/issues"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-jasmine": "~0.8.0"
+  }
+}

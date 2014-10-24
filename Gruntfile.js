@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             scripts: {
-                files: ['subsup.js'],
+                files: ['AngularUserStats.js'],
                 tasks: ['specs']
             }
         },
@@ -13,15 +13,15 @@ module.exports = function(grunt) {
                     eqeqeq: true
                 },
                 files: {
-                    src: 'subsup.js'
+                    src: 'AngularUserStats.js'
                 }
             }
         },
         jasmine: {
             all: {
-                src: 'subsup.js',
+                src: 'AngularUserStats.js',
                 options: {
-                    specs: 'subsup.spec.js',
+                    specs: 'AngularUserStats.spec.js',
                     outfile: 'specs.html',
                     keepRunner: true
                 }

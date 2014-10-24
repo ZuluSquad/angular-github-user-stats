@@ -1,6 +1,4 @@
 angular-github-user-stats
 =========================
 
-A repository for Zulu Squad to learn Angular while using the GitHub API. 
-
-Adding some text to remove it.
+A repository for Zulu Squad to learn Angular while using the GitHub API.

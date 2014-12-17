@@ -21,6 +21,7 @@ module.exports = function(grunt) {
             all: {
                 src: [
                     'node_modules/angular/angular.js',
+                    'node_modules/angular-mocks/angular-mocks.js',
                     'GitHubUserStats.js'
                 ],
                 options: {

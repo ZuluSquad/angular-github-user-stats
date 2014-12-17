@@ -13,3 +13,22 @@ describe('GitHub User Stats', function() {
         });
     });
 });
+describe('main controller', function() {
+    var ctrl, scope;
+
+    beforeEach(function ($rootScope, $controller) {
+        module('GitHubUserStats');
+
+        inject(function($rootScope, $controller) {
+            scope = $rootScope.$new();
+            ctrl = $controller('MainCtrl', {
+                $scope: scope
+            });
+        });
+
+    });
+
+    it('should exist', function() {
+        expect(ctrl).toBeTruthy();
+    });
+});

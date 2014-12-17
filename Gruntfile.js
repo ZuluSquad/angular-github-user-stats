@@ -19,7 +19,10 @@ module.exports = function(grunt) {
         },
         jasmine: {
             all: {
-                src: 'GitHubUserStats.js',
+                src: [
+                    'node_modules/angular/angular.js',
+                    'GitHubUserStats.js'
+                ],
                 options: {
                     specs: 'GitHubUserStats.spec.js',
                     outfile: 'specs.html',

@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             scripts: {
-                files: ['AngularUserStats.js'],
+                files: ['GitHubUserStats.js'],
                 tasks: ['specs']
             }
         },
@@ -13,15 +13,15 @@ module.exports = function(grunt) {
                     eqeqeq: true
                 },
                 files: {
-                    src: 'AngularUserStats.js'
+                    src: 'GitHubUserStats.js'
                 }
             }
         },
         jasmine: {
             all: {
-                src: 'AngularUserStats.js',
+                src: 'GitHubUserStats.js',
                 options: {
-                    specs: 'AngularUserStats.spec.js',
+                    specs: 'GitHubUserStats.spec.js',
                     outfile: 'specs.html',
                     keepRunner: true
                 }

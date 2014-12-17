@@ -2,18 +2,18 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             scripts: {
-                files: ['GitHubUserStats.js'],
+                files: ['*.js'],
                 tasks: ['specs']
             }
         },
         jshint: {
             all: {
                 options: {
-                    undef: true,
+                    /*undef: true,*/
                     eqeqeq: true
                 },
                 files: {
-                    src: 'GitHubUserStats.js'
+                    src: '*.js'
                 }
             }
         },
